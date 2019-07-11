@@ -11,11 +11,11 @@ Include: _default_colors
 
 Color: blueblack  Blue ~ Black
 Color: blueyellow Blue ~ Yellow
-Color: goldblue   Gold ~ Blue
-Color: red2       Red2 ~ DarkRed
-Color: green3     Green3 ~ DarkGreen
-Color: cyan4      Cyan4 ~ DarkCyan
-Color: magenta3   Magenta3 ~ DarkMagenta
+Color: goldblue   gold ~ Blue
+Color: red2       red2 ~ DarkRed
+Color: green3     green3 ~ DarkGreen
+Color: cyan4      cyan4 ~ DarkCyan
+Color: magenta3   magenta3 ~ DarkMagenta
 Color: deeppink   DeepPink ~ LightRed
 
 Term Colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan lightgray

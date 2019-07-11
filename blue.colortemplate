@@ -14,8 +14,8 @@ Background: dark
 
 Include: _default_colors
 
-Color: coral      Coral      ~ Cyan
-Color: gray30     Gray30     ~ Gray
+Color: coral      coral      ~ Cyan
+Color: gray30     gray30     ~ Gray
 Color: olivedrab  OliveDrab  ~ LightGreen
 Color: slateblue  SlateBlue  ~ Blue
 

@@ -34,12 +34,12 @@ Color: cyanlightblue        Cyan                  81        LightBlue
 Color: cyanlightcyan        Cyan                 159        LightCyan
 Color: darkgray242          DarkGray             242        DarkGray
 Color: greenlightgreen      Green                121        LightGreen
-Color: gray40               Gray40               242        DarkGray
-Color: gray50               Gray50               242        DarkGray
+Color: gray40               gray40               242        DarkGray
+Color: gray50               gray50               242        DarkGray
 Color: graydarkgray         Gray                 242        DarkGray
 Color: lightbluepreproc     #ff80ff               81        LightBlue
 Color: lightblueunderlined  #80a0ff               81        LightBlue
-Color: lightgray90          Gray90                 7        LightGray
+Color: lightgray90          gray90                 7        LightGray
 Color: lightgraygray        LightGray            248        Gray
 Color: lightseagreen        SeaGreen             121        LightGreen
 Color: lightseagreentype    #60ff60              121        LightGreen
@@ -48,7 +48,7 @@ Color: magentadarkmagenta   Magenta                5        DarkMagenta
 Color: magentadarkred       Magenta                1        DarkRed
 Color: magentalightmagenta  Magenta              225        LightMagenta
 Color: orange               Orange               224        LightRed
-Color: purple               Purple                 5        DarkMagenta
+Color: purple               purple                 5        DarkMagenta
 Color: reddarkred           Red                    1        DarkRed
 Color: redlightred          Red                  224        LightRed
 Color: seagreen             SeaGreen               2        DarkGreen
