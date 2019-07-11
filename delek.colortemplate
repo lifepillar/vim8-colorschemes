@@ -1,0 +1,92 @@
+# vim: ft=colortemplate cc=14,34,53,74
+Colortemplate Options: timestamp=1 creator=0 source_comment=0 ignore_missing=1
+Full Name: Delek
+Short Name: delek
+Author: David Schweikert <david@schweikert.ch>
+
+Variant:    gui 8
+Background: any
+
+Include: _default_colors
+
+Color: blueblack  Blue ~ Black
+Color: blueyellow Blue ~ Yellow
+Color: goldblue   Gold ~ Blue
+Color: red2       Red2 ~ DarkRed
+Color: green3     Green3 ~ DarkGreen
+Color: cyan4      Cyan4 ~ DarkCyan
+Color: magenta3   Magenta3 ~ DarkMagenta
+Color: deeppink   DeepPink ~ LightRed
+
+Term Colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan lightgray
+Term Colors: darkgray red green yellow blue magenta cyan white
+
+Variant: gui
+Normal       black               white              omit                 s=omit
+Cursor       bg                  fg                 omit                 s=omit
+lCursor      none                cyan               omit                 s=omit
+Variant: 8
+verbatim
+" Note: we never set 'term' because the defaults for B&W terminals are OK
+endverbatim
+Normal       none                none               omit
+Variant: gui 8
+DiffAdd      none                lightblue          omit                 s=omit
+DiffChange   none                lightmagenta       omit                 s=omit
+DiffDelete   blue                lightcyan          g=bold t=omit        s=omit
+DiffText     none                red                bold                 s=omit
+Directory    bluedarkblue        omit               omit                 s=omit
+ErrorMsg     white               reddarkred         omit                 s=omit
+FoldColumn   darkblue            gray               omit                 s=omit
+Folded       darkblue            lightgraygray      omit                 s=omit
+IncSearch    none                none               reverse              s=omit
+LineNr       brown               omit               omit                 s=omit
+ModeMsg      none                none               bold                 s=omit
+MoreMsg      seagreen            omit               g=bold t=omit        s=omit
+Variant: gui
+NonText      gray                white              bold                 s=omit
+Pmenu        none                lightblue          omit                 s=omit
+Variant: 8
+NonText      blue                omit               omit
+Background: light
+Pmenu        black               lightmagenta       omit                 s=omit
+Background: dark
+Pmenu        black               magenta            omit                 s=omit
+Background: any
+Variant: gui 8
+PmenuSel     white               darkblue           omit                 s=omit
+Question     seagreen            omit               g=bold t=omit        s=omit
+Background: light
+Search       none                yellow             omit                 s=omit
+Background: dark
+Search       black               yellow             omit                 s=omit
+Background: any
+SpecialKey   bluedarkblue        omit               omit                 s=omit
+StatusLine   blueyellow          goldblue           t=bold g=omit        s=omit
+StatusLineNC blueblack           goldblue           t=bold g=omit        s=omit
+Title        magentadarkmagenta  omit               t=omit g=bold        s=omit
+VertSplit    none                none               reverse              s=omit
+Variant: gui
+Visual       gray                fg                 reverse              s=omit
+Variant: 8
+Visual       none                none               reverse              s=omit
+Variant: gui 8
+VisualNOS    none                none               underline,bold       s=omit
+WarningMsg   reddarkred          omit               omit                 s=omit
+WildMenu     black               yellow             omit                 s=omit
+
+verbatim
+" syntax highlighting
+endverbatim
+Comment      red2                omit                                    s=omit
+Constant     green3              omit                                    s=omit
+Identifier   cyan4               omit                                    s=omit
+PreProc      magenta3            omit                                    s=omit
+Special      deeppink            omit                                    s=omit
+Statement    blue                omit               bold                 s=omit
+Type         blue                omit               g=bold               s=omit
+
+
+
+
+
