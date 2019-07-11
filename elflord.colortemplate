@@ -1,0 +1,78 @@
+# vim: ft=colortemplate cc=14,34,53,74
+Colortemplate Options: timestamp=1 creator=0 source_comment=0 ignore_missing=1
+Full Name: Elflord
+Short Name: elflord
+Author: Ron Aaron <ron@ronware.org>
+
+String         -> Constant
+Character      -> Constant
+Number         -> Constant
+Boolean        -> Constant
+Float          -> Number
+Conditional    -> Repeat
+Label          -> Statement
+Keyword        -> Statement
+Exception      -> Statement
+Include        -> PreProc
+Define         -> PreProc
+Macro          -> PreProc
+PreCondit      -> PreProc
+StorageClass   -> Type
+Structure      -> Type
+Typedef        -> Type
+Tag            -> Special
+SpecialChar    -> Special
+Delimiter      -> Special
+SpecialComment -> Special
+Debug          -> Special
+
+Variant: gui 8 2
+Background: dark
+
+Include: _default_colors
+
+Color: darkcyancomment  #80a0ff ~ DarkCyan
+Color: reddarkmagenta   Red     ~ DarkMagenta
+Color: yellowstatement2 #aa4444 ~ Yellow
+Color: blueblack        Blue    ~ Black
+
+Term Colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan lightgray
+Term Colors: darkgray red green yellow blue magenta cyan white
+
+Variant: gui
+Normal       cyan                black              omit                 s=omit
+Variant: 8
+Normal       none                none               omit
+Variant: gui 8
+Comment      darkcyancomment     omit               omit                 s=omit
+Constant     magenta             omit               omit                 s=omit
+Special      reddarkmagenta      omit               omit                 s=omit
+Identifier   cyanidentifier      omit               t=bold g=omit        s=omit
+Statement    yellowstatement2    omit               t=omit g=bold        s=omit
+PreProc      lightbluepreproc    omit               omit                 s=omit
+Type         lightseagreentype   omit               t=omit g=bold        s=omit
+Function     white               omit               omit                 s=omit
+Repeat       white               omit               omit                 s=omit
+Operator     red                 omit               omit                 s=omit
+Variant: gui
+Ignore       bg                  omit               omit                 s=omit
+Variant: 8
+Ignore       black               omit               omit
+Variant: gui 8
+Error        white               red                omit                 s=omit
+Todo         blueblack           yellow             omit                 s=omit
+
+Variant: 2
+Normal       omit                omit
+Comment      omit                omit               bold
+Constant     omit                omit               underline
+Special      omit                omit               bold
+Identifier   omit                omit               underline
+Statement    omit                omit               bold
+PreProc      omit                omit               underline
+Type         omit                omit               underline
+Function     omit                omit               bold
+Repeat       omit                omit               underline
+Error        omit                omit               reverse
+Todo         omit                omit               standout
+
