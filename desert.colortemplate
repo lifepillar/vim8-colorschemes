@@ -1,0 +1,115 @@
+# vim: ft=colortemplate cc=14,34,53,74
+Colortemplate Options: timestamp=1 creator=0 source_comment=0 ignore_missing=1
+Full Name: Desert
+Short Name: desert
+Author: Hans Fugal <hans@fugal.net>
+URL: http://hans.fugal.net/vim/colors/desert.vim
+Version: $Id: desert.vim,v 1.1 2004/06/13 19:30:30 vimboss Exp $
+
+verbatim
+" cool help screens
+" :he group-name
+" :he highlight-groups
+" :he cterm-colors
+endverbatim
+
+Variant: gui 8
+Background: dark
+
+Include: _default_colors
+Include: _color_numbers
+Include: _rgb_colors
+
+Color: green2       #c2bfa5 ~
+Color: pinkconstant #ffa0a0 ~
+
+Term Colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan lightgray
+Term Colors: darkgray red green yellow blue magenta cyan white
+
+Variant: gui
+Normal       rgb_white           rgb_gray20         omit                 s=omit
+Cursor       rgb_slategray       rgb_khaki          omit                 s=omit
+VertSplit    rgb_gray50          green2                                  s=omit
+Folded       rgb_gold            rgb_gray30         omit                 s=omit
+FoldColumn   rgb_tan             rgb_gray30         omit                 s=omit
+IncSearch    rgb_slategray       rgb_khaki          omit                 s=omit
+ModeMsg      rgb_goldenrod       omit               omit                 s=omit
+MoreMsg      rgb_seagreen        omit               omit                 s=omit
+NonText      rgb_lightblue       rgb_gray30         omit                 s=omit
+Question     rgb_springgreen     omit               omit                 s=omit
+Search       rgb_wheat           rgb_peru           omit                 s=omit
+SpecialKey   rgb_yellowgreen     omit               omit                 s=omit
+StatusLine   rgb_black           green2                                  s=omit
+StatusLineNC rgb_gray50          green2                                  s=omit
+Title        rgb_indianred       omit               omit                 s=omit
+Visual       rgb_khaki           rgb_olivedrab                           s=omit
+WarningMsg   rgb_salmon          omit               omit                 s=omit
+# These are not present in desert, but they are needed for validation
+DiffAdd      none                rgb_darkblue       omit                 s=omit
+DiffChange   none                rgb_darkmagenta    omit                 s=omit
+DiffDelete   rgb_blue            rgb_darkcyan       bold                 s=omit
+DiffText     none                rgb_red            bold                 s=omit
+Directory    rgb_cyan            none               omit                 s=omit
+Error        rgb_white           rgb_red            omit                 s=omit
+ErrorMsg     rgb_white           rgb_red            omit                 s=omit
+LineNr       rgb_yellow          none               omit                 s=omit
+VisualNOS    none                none               bold,underline
+WildMenu     rgb_black           rgb_yellow         omit                 s=omit
+
+verbatim
+" syntax highlighting groups
+endverbatim
+Comment      rgb_skyblue         omit               omit                 s=omit
+Constant     pinkconstant        omit               omit                 s=omit
+Identifier   rgb_palegreen       omit               omit                 s=omit
+Statement    rgb_khaki           omit               omit                 s=omit
+PreProc      rgb_indianred       omit               omit                 s=omit
+Type         rgb_darkkhaki       omit               omit                 s=omit
+Special      rgb_navajowhite     omit               omit                 s=omit
+Ignore       rgb_gray40          omit               omit                 s=omit
+Todo         rgb_orangered       rgb_yellow2        omit                 s=omit
+# This is not defined in desert, but it is needed for validation
+Underlined   lightblueunderlined none               underline            s=omit
+
+Variant: 8
+Normal       none                none               omit
+SpecialKey   darkgreen           omit               omit
+NonText      darkblue            none               bold
+Directory    darkcyan            none               omit
+ErrorMsg     SEVEN               ONE                bold
+IncSearch    yellow              green
+Search       gray                blue
+MoreMsg      darkgreen           omit               omit
+ModeMsg      brown               omit
+LineNr       THREE               none               omit
+Question     green               omit               omit
+StatusLine   omit                omit               bold,reverse
+StatusLineNC none                none               reverse
+VertSplit    none                none               reverse
+Title        FIVE                omit               omit
+Visual       omit                omit               reverse
+VisualNOS    omit                omit               bold,underline
+WarningMsg   ONE                 omit               omit
+WildMenu     ZERO                THREE              omit
+Folded       darkgray            none               omit
+FoldColumn   darkgray            none               omit
+DiffAdd      none                FOUR               omit
+DiffChange   none                FIVE               omit
+DiffDelete   FOUR                SIX                bold
+DiffText     none                ONE                bold
+Comment      darkcyan            omit               omit
+Constant     brown               omit               omit
+Special      FIVE                omit               omit
+Identifier   SIX                 omit               omit
+Statement    THREE               omit               omit
+PreProc      FIVE                omit               omit
+Type         TWO                 omit               omit
+Underlined   FIVE                none               underline
+# NOTE: desert defines the foreground color for Ignore twice (7 and DarkGray).
+# Since DarkGray is the one that takes effect (because defined last), we used
+# that.
+Ignore       darkgray            omit               bold
+Error        SEVEN               ONE                bold
+# This is not present in desert, but it is needed for validation
+Todo         black               yellow             omit
+
