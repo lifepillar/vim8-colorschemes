@@ -1,0 +1,128 @@
+# vim: ft=colortemplate cc=14,34,53,74
+Colortemplate Options: timestamp=1 creator=0 source_comment=0 ignore_missing=1
+Full Name: Darkblue
+Short Name: darkblue
+Author: Bohdan Vlasyuk <bohdan@vstu.edu.ua>
+Description: darkblue -- for those who prefer dark background
+
+verbatim
+" [note: looks bit uglier with come terminal palettes,
+" but is fine on default linux console palette.]
+endverbatim
+
+Variant:    gui 8 2
+Background: dark
+
+Include: _default_colors
+
+Color: black2             #000040     ~ Black
+Color: bluegray           #2050d0     ~ Gray
+Color: cyan2              #40ffff     ~ Cyan
+Color: cyandarkcyan       Cyan        ~ DarkCyan
+Color: darkblue2          #1249d1     ~ DarkBlue
+Color: darkblue3          #2050d0     ~ DarkBlue
+Color: darkblue4          #b0ffff     ~ DarkBlue
+Color: darkblue5          #0030ff     ~ DarkBlue
+Color: darkblue6          #2050d0     ~ Black
+Color: darkcyancyan       DarkCyan    ~ Cyan
+Color: darkgray2          #808080     ~ DarkGray
+Color: darkgraygray       DarkGray    ~ Gray
+Color: darkmagentamagenta DarkMagenta ~ Magenta
+Color: darkred2           #80a0ff     ~ DarkRed
+Color: gray2              #c0c0c0     ~ Gray
+Color: gray3              #c0c0c0     ~ DarkGray
+Color: grayblack          #c0c0c0     ~ Black
+Color: green2             #90f020     ~ Green
+Color: green3             #60ff60     ~ Green
+Color: lightblue2         #287eff     ~ LightBlue
+Color: lightblue3         #8080ff     ~ LightBlue
+Color: lightblue4         #22cce2     ~ LightBlue
+Color: magenta2           #ffa0a0     ~ Magenta
+Color: magenta3           #ff80ff     ~ Magenta
+Color: magenta4           #404080     ~ Magenta
+Color: orangebrown        Orange      ~ Brown
+Color: red2               #d14a14     ~ Red
+Color: red3               #8080ff     ~ Red
+Color: white2             #ffffff     ~ White
+Color: white3             #90fff0     ~ White
+Color: yellow2            #ffff60     ~ Yellow
+
+Term Colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan lightgray
+Term Colors: darkgray red green yellow blue magenta cyan white
+
+Variant: gui 8
+Normal       gray2               black2             omit                 s=omit
+
+ErrorMsg     white2              lightblue2         omit                 s=omit
+Visual       lightblue3          fg                 reverse              s=omit
+VisualNOS    lightblue3          fg                 reverse,underline    s=omit
+Todo         red2                darkblue2          omit                 s=omit
+Search       white3              darkblue3          t=underline gui=omit s=omit
+IncSearch    darkblue4           bluegray           omit                 s=omit
+
+SpecialKey   cyandarkcyan        omit               omit                 s=omit
+Directory    cyan                omit               omit                 s=omit
+Title        magenta             omit               t=bold               s=omit
+WarningMsg   red                 omit               omit                 s=omit
+WildMenu     yellow              black                                   s=omit
+ModeMsg      lightblue4          omit               omit                 s=omit
+Variant: 8
+MoreMsg      darkgreen           omit               omit                 s=omit
+Variant: gui
+MoreMsg      lightseagreen       omit               omit                 s=omit
+Variant: gui 8
+Question     green               omit                                    s=omit
+NonText      darkblue5           omit               omit                 s=omit
+
+StatusLine   blue                darkgraygray                            s=omit
+StatusLineNC black               darkgraygray                            s=omit
+VertSplit    black               darkgraygray                            s=omit
+
+Folded       darkgray2           black2             g=omit t=bold        s=omit
+FoldColumn   darkgray2           black2             g=omit t=bold        s=omit
+LineNr       green2              omit                                    s=omit
+
+DiffAdd      none                darkblue                                s=omit
+DiffChange   none                darkmagentamagenta                      s=omit
+DiffDelete   blue                darkcyancyan       g=bold t=omit        s=omit
+DiffText     none                red                bold                 s=omit
+
+Cursor       black               yellow             omit                 s=omit
+lCursor      black               white              omit                 s=omit
+
+Comment      darkred2            omit               omit                 s=omit
+Constant     magenta2            omit                                    s=omit
+Special      orangebrown         omit                                    s=omit
+Identifier   cyan2               omit                                    s=omit
+Statement    yellow2             omit                                    s=omit
+PreProc      magenta3            omit                                    s=omit
+Type         green3              omit                                    s=omit
+Underlined   lightblueunderlined omit               t=underline          s=omit
+Ignore       bg                  omit               omit                 s=omit
+
+Variant: gui
+verbatim
+" suggested by tigmoid, 2008 Jul 18
+endverbatim
+Variant: gui 8
+Pmenu        grayblack           magenta4           omit                 s=omit
+Variant: gui
+PmenuSel     gray3               darkblue6          omit                 s=omit
+PmenuSbar    blue                darkgray           omit                 s=omit
+PmenuThumb   grayblack           omit               omit                 s=omit
+Variant: 8
+PmenuSel     darkgray242         black              omit                 s=omit
+PmenuSbar    none                gray               omit
+PmenuThumb   none                omit               omit
+
+Variant: 2
+Normal       omit                omit
+DiffAdd      omit                omit
+FoldColumn   omit                omit               bold
+Folded       omit                omit               bold
+Search       omit                omit               underline
+StatusLine   omit                omit
+StatusLineNC omit                omit
+Underlined   omit                omit               underline
+VertSplit    omit                omit
+WildMenu     omit                omit
