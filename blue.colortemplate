@@ -1,0 +1,123 @@
+# vim: ft=colortemplate cc=14,34,53,74
+Colortemplate Options: timestamp=1 creator=0 source_comment=0 ignore_missing=1
+Full Name: Blue
+Short Name: blue
+Author: Steven Vertigan <steven@vertigan.wattle.id.au>
+
+# verbatim
+# " Revision #5: Switch main text from white to yellow for easier contrast,
+# " fixed some problems with terminal backgrounds.
+# endverbatim
+
+Variant:    gui 8 2
+Background: dark
+
+Include: _default_colors
+
+Color: coral      Coral      ~ Cyan
+Color: gray30     Gray30     ~ Gray
+Color: olivedrab  OliveDrab  ~ LightGreen
+Color: slateblue  SlateBlue  ~ Blue
+
+# Blue does not define g:terminal_ansi_colors
+Term Colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan lightgray
+Term Colors: darkgray red green yellow blue magenta cyan white
+
+Variant: gui 8
+Normal       yellow              darkblue           omit                 s=omit
+
+Variant: gui
+NonText      magentalightmagenta omit               omit                 s=omit
+Comment      gray                omit               bold                 s=omit
+Constant     cyan                omit               omit                 s=omit
+Identifier   gray                omit               omit                 s=omit
+Statement    white               omit               s=omit
+PreProc      green               omit               omit                 s=omit
+Type         orange              omit               omit                 s=omit
+Special      magentalightmagenta omit               omit                 s=omit
+Underlined   cyan                omit               underline            s=omit
+Label        yellow              omit               omit                 s=omit
+Operator     orange              omit               bold                 s=omit
+
+ErrorMsg     orange              darkblue           omit                 s=omit
+WarningMsg   cyan                darkblue           bold                 s=omit
+ModeMsg      yellow              omit               s=omit
+MoreMsg      yellow              omit               s=omit
+Error        red                 darkblue           underline            s=omit
+
+Todo         black               orange             omit                 s=omit
+Cursor       black               white              omit                 s=omit
+Search       black               orange             omit                 s=omit
+IncSearch    black               yellow             omit                 s=omit
+LineNr       cyan                omit               omit                 s=omit
+Title        white               omit               bold                 s=omit
+
+StatusLineNC black               blue               s=omit
+StatusLine   cyan                blue               bold                 s=omit
+VertSplit    blue                blue               s=omit
+
+Visual       black               darkcyan           omit                 s=omit
+
+DiffChange   black               darkgreen          omit                 s=omit
+DiffText     black               olivedrab          omit                 s=omit
+DiffAdd      black               slateblue          omit                 s=omit
+DiffDelete   black               coral              omit                 s=omit
+
+Folded       black               orange             omit                 s=omit
+FoldColumn   black               gray30             omit                 s=omit
+
+# This is a filetype-specific group, so we leave it out:
+#cIf0                 gray              omit          omit      s=omit
+
+# NOTE: cases in which blue defines a GUI color but not a corresponding
+# terminal color have been noted. In such cases, the value from the default
+# color scheme has been added. This highlights some issues, such as the Error
+# highlight group highlight group, in which foreground and background colors
+# coincide.
+Variant: 8
+NonText      magentalightmagenta omit               omit
+Comment      gray                darkblue           omit
+Constant     cyan                omit               omit
+Identifier   red                 omit               omit
+Statement    white               darkblue           omit
+PreProc      green               omit               omit
+Type         orange              darkblue           omit
+Special      magentalightmagenta darkblue           omit
+Underlined   cyan                omit               underline
+Label        yellow              omit               omit
+Operator     orange              darkblue           omit
+
+ErrorMsg     orange              reddarkred         omit # blue does not define bg color
+WarningMsg   cyan                none               omit # blue does not define bg color
+ModeMsg      yellow              omit               omit
+MoreMsg      yellow              omit               omit
+Error        red                 red                omit # blue does not define bg color
+
+Todo         black               darkyellow         omit
+Cursor       black               white              omit
+Search       black               darkyellow         omit
+IncSearch    black               darkyellow         omit
+LineNr       cyan                omit               omit
+Title        magentalightmagenta omit               bold # blue does not define fg color
+
+StatusLineNC black               blue               omit
+StatusLine   cyan                blue               omit
+VertSplit    blue                blue               omit
+
+Visual       black               darkcyan           omit
+
+DiffChange   black               darkgreen          omit
+DiffText     black               olivedrab          omit
+DiffAdd      black               slateblue          omit
+DiffDelete   black               coral              omit
+
+Folded       black               yellow             omit
+FoldColumn   black               gray30             omit
+
+# This is a filetype-specific group, so we leave it out:
+#cIf0        gray                omit        omit
+
+Variant: 2
+Normal       omit                omit
+Visual       omit                omit               reverse
+
