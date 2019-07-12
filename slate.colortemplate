@@ -1,0 +1,118 @@
+# vim: ft=colortemplate cc=14,34,53,74
+Colortemplate Options: timestamp=1 creator=0 source_comment=0 ignore_missing=1
+Full name: Slate
+Short name: slate
+Author: Ralph Amissah <ralph@amissah.com>
+
+verbatim
+" (originally looked at desert Hans Fugal <hans@fugal.net> http://hans.fugal.net/vim/colors/desert.vim (2003/05/06)
+endverbatim
+
+Variant: gui 16 2
+Background: dark
+
+Include: _default_colors
+Include: _color_numbers
+Include: _rgb_colors
+
+Color: statusline_bg #c2bfa5 ~
+Color: pinkconstant  #ffa0a0 ~
+
+Term Colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan lightgray
+Term Colors: darkgray red green yellow blue magenta cyan white
+
+Variant: gui
+Normal       rgb_white           rgb_gray15         omit                 s=omit
+Cursor       rgb_slategray       rgb_khaki          omit                 s=omit
+VertSplit    rgb_gray40          rgb_gray2                               s=omit
+Folded       rgb_gray40          rgb_black          omit                 s=omit
+FoldColumn   rgb_gray20          rgb_black          omit                 s=omit
+IncSearch    rgb_green           rgb_black          omit                 s=omit
+ModeMsg      rgb_goldenrod       omit               omit                 s=omit
+MoreMsg      rgb_seagreen        omit               omit                 s=omit
+NonText      rgb_royalblue       rgb_gray15         omit                 s=omit
+Question     rgb_springgreen     omit               omit                 s=omit
+Search       rgb_wheat           rgb_peru           omit                 s=omit
+SpecialKey   rgb_yellowgreen     omit               omit                 s=omit
+StatusLine   rgb_black           statusline_bg                           s=omit
+StatusLineNC rgb_gray40          statusline_bg                           s=omit
+Title        rgb_gold            omit               bold                 s=omit
+Statement    rgb_cornflowerblue  omit               omit                 s=omit
+Visual       rgb_khaki           rgb_olivedrab                           s=omit
+WarningMsg   rgb_salmon          omit               omit                 s=omit
+String       rgb_skyblue         omit               omit                 s=omit
+Comment      rgb_gray40          omit               omit                 s=omit
+Constant     pinkconstant        omit               omit                 s=omit
+Special      rgb_darkkhaki       omit               omit                 s=omit
+Identifier   rgb_salmon          omit               omit                 s=omit
+Include      rgb_red             omit               omit                 s=omit
+PreProc      rgb_red             rgb_white          omit                 s=omit
+Operator     rgb_red             omit               omit                 s=omit
+Define       rgb_gold            omit               bold                 s=omit
+Type         rgb_cornflowerblue  omit               omit                 s=omit
+Function     rgb_navajowhite     omit               omit                 s=omit
+Structure    rgb_green           omit               omit                 s=omit
+LineNr       rgb_gray50          omit               omit                 s=omit
+Ignore       rgb_gray40          omit               omit                 s=omit
+Todo         rgb_orangered       rgb_yellow2        omit                 s=omit
+Directory    rgb_cyan            omit               omit                 s=omit
+ErrorMsg     rgb_white           rgb_red            omit                 s=omit
+VisualNOS    none                none               bold,underline       s=omit
+WildMenu     rgb_black           rgb_yellow         omit                 s=omit
+DiffAdd      none                rgb_darkblue       omit                 s=omit
+DiffChange   none                rgb_darkmagenta    omit                 s=omit
+DiffDelete   rgb_blue            rgb_darkcyan       bold                 s=omit
+DiffText     none                rgb_red            bold                 s=omit
+Underlined   lightblueunderlined omit               underline            s=omit
+Error        rgb_white           rgb_red            omit                 s=omit
+SpellErrors  rgb_white           rgb_red            omit                 s=omit
+Variant: 16
+Normal       none                none               omit
+Cursor       none                none               omit
+VertSplit    none                none               reverse
+Folded       gray                darkgray           omit
+FoldColumn   FOUR                SEVEN              omit
+IncSearch    yellow              green
+ModeMsg      brown               omit
+MoreMsg      darkgreen           omit               omit
+NonText      blue                none               bold
+Question     green               omit               omit
+Search       gray                blue
+SpecialKey   darkgreen           omit               omit
+StatusLine   none                none               reverse
+StatusLineNC none                none               reverse
+Title        yellow              omit               bold
+Statement    lightblue           omit               omit
+Visual       none                none               reverse
+WarningMsg   ONE                 omit               omit
+String       darkcyan            omit               omit
+Comment      ELEVEN              omit               omit
+Constant     brown               omit               omit
+Special      brown               omit               omit
+Identifier   red                 omit               omit
+Include      red                 omit               omit
+PreProc      red                 none               omit
+Operator     red                 omit               omit
+Define       yellow              omit               omit
+Type         TWO                 omit               omit
+Function     brown               omit               omit
+Structure    green               omit               omit
+LineNr       THREE               omit               omit
+Ignore       SEVEN               omit               bold
+Todo         black               yellow             omit
+Directory    darkcyan            omit               omit
+ErrorMsg     SEVEN               ONE                bold
+VisualNOS    none                none               bold,underline
+WildMenu     ZERO                THREE              omit
+DiffAdd      none                FOUR               omit
+DiffChange   none                FIVE               omit
+DiffDelete   FOUR                SIX                bold
+DiffText     none                ONE                bold
+Underlined   FIVE                omit               underline
+Error        SEVEN               ONE                bold
+SpellErrors  SEVEN               ONE                bold
+
+Variant: 2
+Normal       omit                omit
+Comment      omit                omit               bold
+
