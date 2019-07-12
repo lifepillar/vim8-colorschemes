@@ -1,0 +1,87 @@
+# vim: ft=colortemplate cc=14,34,53,74
+Colortemplate Options: timestamp=1 creator=0 source_comment=0 ignore_missing=1
+Full name: Zellner
+Short name: zellner
+Author: Ron Aaron <ron@ronware.org>
+
+MoreMsg        -> Comment
+ErrorMsg       -> Visual
+WarningMsg     -> ErrorMsg
+Question       -> Comment
+String         -> Constant
+Character      -> Constant
+Number         -> Constant
+Boolean        -> Constant
+Float          -> Number
+Function       -> Identifier
+Conditional    -> Statement
+Repeat         -> Statement
+Label          -> Statement
+Operator       -> Statement
+Keyword        -> Statement
+Exception      -> Statement
+Include        -> PreProc
+Define         -> PreProc
+Macro          -> PreProc
+PreCondit      -> PreProc
+StorageClass   -> Type
+Structure      -> Type
+Typedef        -> Type
+SpecialChar    -> Special
+Delimiter      -> Special
+SpecialComment -> Special
+Debug          -> Special
+
+Variant: gui 16 2
+Background: light
+
+Include: _default_colors
+
+Color: browndarkred Brown ~ DarkRed
+Color: purplemagenta Purple ~ Magenta
+Color: white15 White ~ 15
+Color: red9 Red ~ 9
+Color: blueblack Blue ~ Black
+
+Term Colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan lightgray
+Term Colors: darkgray red green yellow blue magenta cyan white
+
+Variant: gui
+Normal       black               white              omit                 s=omit
+Variant: 16
+Normal       none                none               omit
+Variant: gui 16
+Comment      red                 omit               omit                 s=omit
+Constant     magenta             omit               omit                 s=omit
+Special      magenta             omit               omit                 s=omit
+Identifier   blue                omit               omit                 s=omit
+Statement    browndarkred        omit               t=omit               s=omit
+PreProc      purplemagenta       omit               omit                 s=omit
+Type         blue                omit               t=omit               s=omit
+Variant: gui
+Visual       black               yellow                                  s=omit
+Variant: 16
+Visual       yellow              red                omit
+Variant: gui 16
+Search       black               cyan               t=omit               s=omit
+Tag          darkgreen           omit               omit                 s=omit
+Error        white15             red9               omit                 s=omit
+Todo         blueblack           yellow             omit                 s=omit
+StatusLine   yellow              darkgray                                s=omit
+
+Variant: 2
+Normal       omit                omit
+Comment      omit                omit               bold
+Constant     omit                omit               underline
+Special      omit                omit               bold
+Identifier   omit                omit               underline
+Statement    omit                omit               bold
+PreProc      omit                omit               underline
+Type         omit                omit               underline
+Visual       omit                omit               reverse
+Search       omit                omit               reverse
+Tag          omit                omit               bold
+Error        omit                omit               reverse
+Todo         omit                omit               standout
+StatusLine   omit                omit               bold,reverse
+
