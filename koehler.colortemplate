@@ -1,0 +1,143 @@
+# vim: ft=colortemplate cc=14,34,53,74
+Colortemplate Options: timestamp=1 creator=0 source_comment=0 ignore_missing=1
+Full Name: Koehler
+Short Name: koehler
+Author: Ron Aaron <ron@ronware.org>
+
+IncSearch      -> Visual
+String         -> Constant
+Character      -> Constant
+Number         -> Constant
+Boolean        -> Constant
+Float          -> Number
+Function       -> Identifier
+Conditional    -> Statement
+Repeat         -> Statement
+Label          -> Statement
+Operator       -> Statement
+Keyword        -> Statement
+Exception      -> Statement
+Include        -> PreProc
+Define         -> PreProc
+Macro          -> PreProc
+PreCondit      -> PreProc
+StorageClass   -> Type
+Structure      -> Type
+Typedef        -> Type
+Tag            -> Special
+SpecialChar    -> Special
+Delimiter      -> Special
+SpecialComment -> Special
+Debug          -> Special
+
+Variant: gui 8 2
+Background: dark
+
+Include: _default_colors
+
+Color: darkred2       #cc0000 ~ DarkRed
+Color: brown2         #cc8000 ~ Brown
+Color: whitegray      White   ~ Gray
+Color: yellowdarkcyan Yellow  ~ DarkCyan
+Color: greendarkgreen Green   ~ DarkGreen
+Color: bluelightblue  Blue    ~ LightBlue
+Color: orangered      Orange  ~ Red
+Color: brownidentifier #40ffff ~ Brown
+Color: darkmagentapreproc #ff80ff ~ DarkMagenta
+Color: reddarkcyan Red ~ DarkCyan
+Color: blueblack Blue ~ Black
+Color: graycursor #555555 ~ Gray
+
+Term Colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan lightgray
+Term Colors: darkgray red green yellow blue magenta cyan white
+
+Variant: gui
+Normal       white               black              omit                 s=omit
+Scrollbar    darkcyan            cyan               omit                 s=omit
+Menu         black               cyan               omit                 s=omit
+Variant: 8
+Normal       none                none               omit
+Variant: gui 8
+SpecialKey   darkred2            omit               t=bold g=omit        s=omit
+NonText      darkred2            omit               bold                 s=omit
+Directory    brown2              omit               t=bold g=omit        s=omit
+ErrorMsg     whitegray           red                t=bold g=omit        s=omit
+Search       white               red                omit                 s=omit
+MoreMsg      seagreen            omit               bold                 s=omit
+Variant: gui
+ModeMsg      white               blue               g=bold               s=omit
+Variant: 8
+ModeMsg      none                none               t=bold               s=omit
+Variant: gui 8
+LineNr       yellowdarkcyan      omit               t=bold g=omit        s=omit
+Question     greendarkgreen      omit               bold                 s=omit
+StatusLine   bluelightblue       white              bold                 s=omit
+StatusLineNC white               bluelightblue      omit                 s=omit
+Title        magentadarkmagenta  omit               bold                 s=omit
+Variant: gui
+Visual       none                darkgray242        reverse              s=omit
+Variant: 8
+Visual       none                none               reverse              s=omit
+Variant: gui 8
+WarningMsg   reddarkred          omit               t=bold g=omit        s=omit
+Cursor       bg                  green              omit                 s=omit
+Comment      cyancomment         omit               t=bold g=omit        s=omit
+Constant     magentaconstant     omit               t=bold g=omit        s=omit
+Special      orangered           omit               t=bold g=omit        s=omit
+Identifier   brownidentifier     omit               omit                 s=omit
+Statement    yellowstatement     omit               bold                 s=omit
+PreProc      darkmagentapreproc  omit               omit                 s=omit
+Type         lightseagreentype   omit               bold                 s=omit
+Error        reddarkcyan         black              omit                 s=omit
+Todo         blueblack           yellowdarkcyan     omit                 s=omit
+Variant: gui
+CursorLine   none                graycursor         omit                 s=omit
+CursorColumn none                graycursor         omit                 s=omit
+MatchParen   none                blue               omit                 s=omit
+Variant: 8
+CursorLine   none                none               underline
+CursorColumn none                none               underline
+MatchParen   blue                darkcyan           omit
+Variant: gui 8
+TabLine      bluelightblue       white              bold                 s=omit
+TabLineFill  bluelightblue       white              bold                 s=omit
+TabLineSel   white               bluelightblue      omit                 s=omit
+Underlined   lightblue           omit               bold,underline       s=omit
+Ignore       black               black              omit                 s=omit
+EndOfBuffer  darkred2            omit               bold                 s=omit
+
+Variant: 2
+Normal       omit                omit
+SpecialKey   omit                omit               bold
+NonText      omit                omit               bold
+Directory    omit                omit               bold
+ErrorMsg     omit                omit               standout
+Search       omit                omit               reverse
+MoreMsg      omit                omit               bold
+ModeMsg      omit                omit               bold
+LineNr       omit                omit               underline
+Question     omit                omit               standout
+StatusLine   omit                omit               bold,reverse
+StatusLineNC omit                omit               reverse
+Title        omit                omit               bold
+Visual       omit                omit               reverse
+WarningMsg   omit                omit               standout
+Comment      omit                omit               bold
+Constant     omit                omit               underline
+Special      omit                omit               bold
+Identifier   omit                omit               underline
+Statement    omit                omit               bold
+PreProc      omit                omit               underline
+Type         omit                omit               underline
+Error        omit                omit               reverse
+Todo         omit                omit               standout
+CursorLine   omit                omit               underline
+CursorColumn omit                omit               underline
+MatchParen   omit                omit               reverse
+TabLine      omit                omit               bold,reverse
+TabLineFill  omit                omit               bold,reverse
+TabLineSel   omit                omit               reverse
+Underlined   omit                omit               underline
+Ignore       omit                omit
+EndOfBuffer  omit                omit               bold
+
