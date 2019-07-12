@@ -1,0 +1,117 @@
+# vim: ft=colortemplate cc=14,34,53,74
+Colortemplate Options: timestamp=1 creator=0 source_comment=0 ignore_missing=1
+Full name: Shine
+Short name: shine
+Author: Yasuhiro Matsumoto <mattn@mail.goo.ne.jp>
+
+verbatim
+" This look like normal text editor.
+" This color scheme uses a light background.
+endverbatim
+
+Variant: gui 8 2
+Background: light
+
+Include: _default_colors
+
+Color: bluelightblue    Blue       ~ LightBlue
+Color: darkorange       DarkOrange ~ LightRed
+Color: gray80           gray80     ~
+Color: gray90           gray90     ~ LightGray
+Color: graylightgray    Gray       ~ LightGray
+Color: magentaconstant2 #a07070    ~ Magenta
+Color: yellowstatement2 #ffff60    ~ DarkGreen
+
+Term Colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan lightgray
+Term Colors: darkgray red green yellow blue magenta cyan white
+
+Variant: gui 8
+Normal       black               white              omit                 s=omit
+ErrorMsg     white               reddarkred         omit                 s=omit
+IncSearch    none                none               reverse              s=omit
+ModeMsg      none                none               bold                 s=omit
+StatusLine   none                none               bold,reverse         s=omit
+StatusLineNC none                none               reverse              s=omit
+VertSplit    none                none               reverse              s=omit
+Variant: gui
+Visual       gray                fg                 g=reverse            s=omit
+Variant: 8
+Visual       none                none               t=reverse
+Variant: gui 8
+VisualNOS    none                none               underline,bold       s=omit
+DiffText     none                red                bold                 s=omit
+Cursor       black               green              omit                 s=omit
+lCursor      black               cyan               omit                 s=omit
+Directory    redlightred         omit               omit                 s=omit
+LineNr       yellow              omit               omit                 s=omit
+MoreMsg      lightseagreen       omit               t=omit g=bold        s=omit
+Variant: gui
+NonText      lightblue           gray90             g=bold               s=omit
+Variant: 8
+NonText      lightblue           none               omit
+Variant: gui 8
+Question     greenlightgreen     omit               t=omit g=bold        s=omit
+Search       black               yellow             omit                 s=omit
+SpecialKey   bluelightblue       omit               omit                 s=omit
+Title        magentalightmagenta omit               t=omit g=bold        s=omit
+WarningMsg   redlightred         omit               omit                 s=omit
+WildMenu     black               yellow             omit                 s=omit
+Folded       darkblue            lightgray          omit                 s=omit
+FoldColumn   darkblue            graylightgray      omit                 s=omit
+DiffAdd      none                darkblue           omit                 s=omit
+DiffChange   none                darkmagenta        omit                 s=omit
+DiffDelete   blue                darkcyan           t=omit g=bold        s=omit
+Variant: gui
+Comment      darkgray            none               g=bold               s=omit
+SpecialChar  darkgray            none               g=bold               s=omit
+StorageClass red                 none               g=bold               s=omit
+Number       lightred            none               g=bold               s=omit
+Constant     magentaconstant2    gray80             omit                 s=omit
+Special      darkorange          gray80             omit                 s=omit
+Statement    yellowstatement2    none               g=bold               s=omit
+Variant: 8
+Comment      darkgray            white              omit
+SpecialChar  darkgray            white              omit
+StorageClass red                 white              omit
+Number       lightred            white              omit
+Constant     magentaconstant2    none               omit
+Special      lightred            none               omit
+Statement    yellowstatement2    white              t=bold
+Variant: gui 8
+Ignore       gray90              none               omit                 s=omit
+
+Variant: 2
+Normal       omit                omit
+ErrorMsg     omit                omit               standout
+IncSearch    omit                omit               reverse
+ModeMsg      omit                omit               bold
+StatusLine   omit                omit               reverse,bold
+StatusLineNC omit                omit               reverse
+VertSplit    omit                omit               reverse
+Visual       omit                omit               reverse
+VisualNOS    omit                omit               underline,bold
+DiffText     omit                omit               reverse
+Directory    omit                omit               bold
+LineNr       omit                omit               underline
+MoreMsg      omit                omit               bold
+NonText      omit                omit               bold
+Question     omit                omit               standout
+Search       omit                omit               reverse
+SpecialKey   omit                omit               bold
+Title        omit                omit               bold
+WarningMsg   omit                omit               standout
+WildMenu     omit                omit               standout
+Folded       omit                omit               standout
+FoldColumn   omit                omit               standout
+DiffAdd      omit                omit               bold
+DiffChange   omit                omit               bold
+DiffDelete   omit                omit               bold
+Comment      omit                omit
+SpecialChar  omit                omit
+StorageClass omit                omit
+Number       omit                omit
+Constant     omit                omit               underline
+Special      omit                omit               bold
+Statement    omit                omit               bold
+Ignore       omit                omit
+
