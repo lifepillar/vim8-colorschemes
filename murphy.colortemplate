@@ -1,0 +1,102 @@
+# vim: ft=colortemplate cc=14,34,53,74
+Colortemplate Options: timestamp=1 creator=0 source_comment=0 ignore_missing=1
+Full Name: Murphy
+Short Name: murphy
+Author: Ron Aaron <ron@ronware.org>
+
+Variant: gui 8 2
+Background: dark
+
+Include: _default_colors
+Include: _rgb_colors
+
+Color: blueblack        Blue    ~ Black
+Color: cyanlightgreen   Cyan    ~ LightGreen
+Color: graylightgreen   Gray    ~ LightGreen
+Color: lightcyan2       #00ffff ~ LightCyan
+Color: magentalightred  Magenta ~ LightRed
+Color: pinklightmagenta pink    ~ LightMagenta
+Color: wheatlightblue   wheat   ~ LightBlue
+Color: whitelightgreen  White   ~ LightGreen
+Color: yellowstatement2 #ffff00 ~ Yellow
+
+Term Colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan lightgray
+Term Colors: darkgray red green yellow blue magenta cyan white
+
+Variant: gui 8
+Normal       lightgreen          black              omit                 s=omit
+Comment      orange              omit               omit                 s=omit
+Constant     whitelightgreen     omit               t=omit               s=omit
+Identifier   lightcyan2          omit               omit                 s=omit
+Variant: gui
+Ignore       bg                  omit               omit                 s=omit
+Variant: 8
+Ignore       black               omit               omit
+Variant: gui 8
+PreProc      wheatlightblue      omit               omit                 s=omit
+Variant: gui
+Search       white               blue               omit                 s=omit
+Variant: 8
+Search       black               yellow             omit
+Variant: gui 8
+Special      magentalightred     omit               omit                 s=omit
+Statement    yellowstatement2    omit                                    s=omit
+Type         graylightgreen      omit               t=omit               s=omit
+Error        white               red                omit                 s=omit
+Todo         blueblack           yellow             omit                 s=omit
+verbatim
+" From the source:
+endverbatim
+Variant: gui
+Cursor       rgb_orchid          fg                 omit                 s=omit
+Variant: 8
+Cursor       none                none               omit                 s=omit
+Variant: gui 8
+Directory    cyanlightcyan       omit               omit                 s=omit
+ErrorMsg     white               reddarkred         omit                 s=omit
+IncSearch    none                none               reverse              s=omit
+LineNr       yellow              omit               omit                 s=omit
+ModeMsg      none                none               bold                 s=omit
+MoreMsg      lightseagreen       omit               g=bold t=omit        s=omit
+NonText      blue                omit               g=bold t=omit        s=omit
+Question     cyanlightgreen      omit               omit                 s=omit
+SpecialKey   cyanlightblue       omit               omit                 s=omit
+Variant: gui
+StatusLine   white               darkblue                                s=omit
+StatusLineNC white               hex_gray20                              s=omit
+Variant: 8
+StatusLine   none                none               t=reverse
+StatusLineNC none                none               t=reverse
+Variant: gui 8
+Title        pinklightmagenta    omit               g=bold t=omit        s=omit
+WarningMsg   redlightred         omit               omit                 s=omit
+Variant: gui
+Visual       white               darkgreen                               s=omit
+Variant: 8
+Visual       none                none               reverse              s=omit
+
+Variant: 2
+Normal       omit                omit
+Comment      omit                omit               bold
+Constant     omit                omit               underline
+Identifier   omit                omit               underline
+PreProc      omit                omit               underline
+Search       omit                omit               reverse
+Special      omit                omit               bold
+Statement    omit                omit               bold
+Error        omit                omit               reverse
+Todo         omit                omit               standout
+Directory    omit                omit               bold
+ErrorMsg     omit                omit               standout
+IncSearch    omit                omit               reverse
+LineNr       omit                omit               underline
+ModeMsg      omit                omit               bold
+MoreMsg      omit                omit               bold
+NonText      omit                omit               bold
+Question     omit                omit               standout
+SpecialKey   omit                omit               bold
+StatusLine   omit                omit               reverse,bold
+StatusLineNC omit                omit               reverse
+Title        omit                omit               bold
+WarningMsg   omit                omit               standout
+Visual       omit                omit               reverse
