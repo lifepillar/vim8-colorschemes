@@ -83,11 +83,11 @@ MoreMsg      darkgreen           omit               omit
 ModeMsg      brown               omit
 LineNr       THREE               none               omit
 Question     green               omit               omit
-StatusLine   omit                omit               bold,reverse
+StatusLine   none                none               bold,reverse
 StatusLineNC none                none               reverse
 VertSplit    none                none               reverse
 Title        FIVE                omit               omit
-Visual       omit                omit               reverse
+Visual       none                none               reverse
 VisualNOS    omit                omit               bold,underline
 WarningMsg   ONE                 omit               omit
 WildMenu     ZERO                THREE              omit
@@ -111,5 +111,6 @@ Underlined   FIVE                none               underline
 Ignore       darkgray            omit               bold
 Error        SEVEN               ONE                bold
 # This is not present in desert, but it is needed for validation
+Cursor       none                none               omit                 s=omit
 Todo         black               yellow             omit
 

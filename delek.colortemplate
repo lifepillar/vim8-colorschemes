@@ -23,7 +23,6 @@ Term Colors: darkgray red green yellow blue magenta cyan white
 
 Variant: gui
 Normal       black               white              omit                 s=omit
-Cursor       bg                  fg                 omit                 s=omit
 lCursor      none                cyan               omit                 s=omit
 Variant: 8
 verbatim
@@ -31,6 +30,7 @@ verbatim
 endverbatim
 Normal       none                none               omit
 Variant: gui 8
+Cursor       bg                  fg                 omit                 s=omit
 DiffAdd      none                lightblue          omit                 s=omit
 DiffChange   none                lightmagenta       omit                 s=omit
 DiffDelete   blue                lightcyan          g=bold t=omit        s=omit
@@ -47,7 +47,7 @@ Variant: gui
 NonText      gray                white              bold                 s=omit
 Pmenu        none                lightblue          omit                 s=omit
 Variant: 8
-NonText      blue                omit               omit
+NonText      blue                none               omit
 Background: light
 Pmenu        black               lightmagenta       omit                 s=omit
 Background: dark
