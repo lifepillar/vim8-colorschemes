@@ -1,0 +1,108 @@
+# vim: ft=colortemplate cc=14,34,53,74
+Colortemplate Options: timestamp=1 creator=0 source_comment=0 ignore_missing=1
+Full Name: Evening
+Short Name: evening
+Author: Bram Moolenaar <Bram@vim.org>
+
+verbatim
+" This color scheme uses a dark grey background.
+endverbatim
+
+Variant: gui 8 2
+Background: dark
+
+Include: _default_colors
+
+Color: gray20darkgray gray20 ~ DarkGray
+Color: gray60black    gray60 ~ Black
+Color: graylightgray  Gray   ~ LightGray
+Color: gray40black    gray40 ~ Black
+Color: gray30         gray30 ~ Gray
+
+Term Colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan lightgray
+Term Colors: darkgray red green yellow blue magenta cyan white
+
+Variant: gui 8
+Normal       white               gray20darkgray     omit                 s=omit
+verbatim
+" Groups used in the 'highlight' and 'guicursor' options default value.
+endverbatim
+ErrorMsg     white               reddarkred         omit                 s=omit
+IncSearch    none                omit               reverse              s=omit
+ModeMsg      none                omit               bold                 s=omit
+StatusLine   none                omit               bold,reverse         s=omit
+StatusLineNC none                omit               reverse              s=omit
+VertSplit    none                omit               reverse              s=omit
+Visual       none                gray60black        omit                 s=omit
+VisualNOS    none                omit               underline,bold       s=omit
+DiffText     none                red                bold                 s=omit
+Cursor       black               green              omit                 s=omit
+lCursor      black               cyan               omit                 s=omit
+Directory    cyanlightcyan       omit               omit                 s=omit
+LineNr       yellow              omit               omit                 s=omit
+MoreMsg      lightseagreen       omit               g=bold t=omit        s=omit
+Variant: gui
+NonText      lightblue           gray30             g=bold               s=omit
+Variant: 8
+NonText      lightblue           none               omit
+Variant: gui 8
+Question     greenlightgreen     omit               g=bold t=omit        s=omit
+Search       black               yellow             omit                 s=omit
+SpecialKey   cyanlightblue       omit               omit                 s=omit
+Title        magentalightmagenta omit               g=bold t=omit        s=omit
+WarningMsg   redlightred         omit               omit                 s=omit
+WildMenu     black               yellow             omit                 s=omit
+Folded       darkblue            lightgray          omit                 s=omit
+FoldColumn   darkblue            graylightgray      omit                 s=omit
+DiffAdd      none                darkblue           omit                 s=omit
+DiffChange   none                darkmagenta        omit                 s=omit
+DiffDelete   blue                darkcyan           g=bold t=omit        s=omit
+CursorColumn none                gray40black        omit                 s=omit
+Variant: gui
+CursorLine   none                gray40             omit                 s=omit
+Variant: 8
+CursorLine   none                none               t=underline
+Variant: gui 8
+verbatim
+" Groups for syntax highlighting
+endverbatim
+Constant     magentaconstant     omit               omit                 s=omit
+Special      orange              omit               omit                 s=omit
+Statement    yellowstatement     omit               bold                 s=omit
+Ignore       gray20darkgray      omit               omit                 s=omit
+
+Variant: 2
+Normal       omit                omit
+ErrorMsg     omit                omit               standout
+IncSearch    omit                omit               reverse
+ModeMsg      omit                omit               bold
+StatusLine   omit                omit               bold,reverse
+StatusLineNC omit                omit               reverse
+VertSplit    omit                omit               reverse
+Visual       omit                omit               reverse
+VisualNOS    omit                omit               underline,bold
+DiffText     omit                omit               reverse
+Directory    omit                omit               bold
+LineNr       omit                omit               underline
+MoreMsg      omit                omit               bold
+NonText      omit                omit               bold
+Question     omit                omit               standout
+Search       omit                omit               reverse
+SpecialKey   omit                omit               bold
+Title        omit                omit               bold
+WarningMsg   omit                omit               standout
+WildMenu     omit                omit               standout
+Folded       omit                omit               standout
+FoldColumn   omit                omit               standout
+DiffAdd      omit                omit               bold
+DiffChange   omit                omit               bold
+DiffDelete   omit                omit               bold
+CursorColumn omit                omit               reverse
+CursorLine   omit                omit               underline
+verbatim
+" Groups for syntax highlighting
+endverbatim
+Constant     omit                omit               underline
+Special      omit                omit               bold
+Statement    omit                omit               bold
+
