@@ -1,0 +1,21 @@
+# vim: ft=colortemplate
+
+# These are meant to be used only with terminall variants
+# (the GUI color is considered an unused color).
+Color: ZERO      White ~ 0
+Color: ONE       White ~ 1
+Color: TWO       White ~ 2
+Color: THREE     White ~ 3
+Color: FOUR      White ~ 4
+Color: FIVE      White ~ 5
+Color: SIX       White ~ 6
+Color: SEVEN     White ~ 7
+Color: EIGHT     White ~ 8
+Color: NINE      White ~ 9
+Color: TEN       White ~ 10
+Color: ELEVEN    White ~ 11
+Color: TWELVE    White ~ 12
+Color: THIRTEEN  White ~ 13
+Color: FOURTEEEN White ~ 14
+Color: FIVETEEEN White ~ 15
+
