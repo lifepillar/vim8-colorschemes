@@ -1,0 +1,151 @@
+# vim: ft=colortemplate cc=14,34,53,74
+Colortemplate Options: timestamp=1 creator=0 source_comment=0 ignore_missing=1
+Full name: Peachpuff
+Short name: peachpuff
+Author: David Ne\v{c}as (Yeti) <yeti@physics.muni.cz>
+URL: http://trific.ath.cx/Ftp/vim/colors/peachpuff.vim
+
+verbatim
+" This color scheme uses a peachpuff background (what you've expected when it's
+" called peachpuff?).
+"
+" Note: Only GUI colors differ from default, on terminal it's just `light'.
+endverbatim
+
+Variant: gui 8 2
+Background: light
+
+Include: _default_colors
+
+Color: pp_black       Black       ~ 0
+Color: pp_black4      Black       ~ 4
+Color: pp_blue        Blue        ~ 4
+Color: pp_blue0       Blue        ~ 0
+Color: pp_brown       Brown       ~ 3
+Color: pp_darkblue    DarkBlue    ~ 4
+Color: pp_darkcyan    DarkCyan    ~ 6
+Color: pp_darkgreen   DarkGreen   ~ 2
+Color: pp_darkmagenta DarkMagenta ~ 5
+Color: pp_darkred     DarkRed     ~ 1
+Color: pp_darkyellow  DarkYellow  ~ 3
+Color: pp_deeppink3   DeepPink3   ~ 5
+Color: pp_gold2       gold2       ~ 3
+Color: pp_gray45      gray45      ~
+Color: pp_gray80      gray80      ~ 7
+Color: pp_lightblue   LightBlue   ~ 4
+Color: pp_lightgray   LightGray   ~ 7
+Color: pp_lightpink   #f6e8d0     ~ 6
+Color: pp_magenta     #c00058     ~ 1
+Color: pp_magenta3    magenta3    ~ 5
+Color: pp_peach       #e3c1a5     ~ 7
+Color: pp_peachpuff   PeachPuff   ~
+Color: pp_pink        #edb5cd     ~ 5
+Color: pp_red         Red         ~ 1
+Color: pp_red3        red3        ~ 3
+Color: pp_salmon      #ff8060     ~ 1
+Color: pp_seagreen    SeaGreen    ~ 2
+Color: pp_slateblue   SlateBlue   ~ 5
+Color: pp_teal        #406090     ~ 4
+Color: pp_white       White       ~ 7
+Color: pp_white4      White       ~ 4
+Color: pp_yellow      Yellow      ~ 3
+
+Term Colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan lightgray
+Term Colors: darkgray red green yellow blue magenta cyan white
+
+Variant: gui
+Normal       pp_black            pp_peachpuff       omit                 s=omit
+Variant: 8
+Normal       none                none               omit
+Variant: gui 8
+SpecialKey   pp_blue             omit               omit                 s=omit
+NonText      pp_blue             omit               bold                 s=omit
+Directory    pp_blue             omit               omit                 s=omit
+ErrorMsg     pp_white            pp_red             bold                 s=omit
+IncSearch    none                none               reverse              s=omit
+Search       none                pp_gold2           omit                 s=omit
+MoreMsg      pp_seagreen         omit               t=omit g=bold        s=omit
+ModeMsg      none                none               bold                 s=omit
+LineNr       pp_red3             omit               omit                 s=omit
+Question     pp_seagreen         omit               t=omit g=bold        s=omit
+Variant: gui
+StatusLine   pp_white            pp_black           g=bold               s=omit
+StatusLineNC pp_peachpuff        pp_gray45          g=bold               s=omit
+VertSplit    pp_white            pp_gray45          g=bold               s=omit
+Variant: 8
+StatusLine   none                none               t=bold,reverse       s=omit
+StatusLineNC none                none               t=reverse            s=omit
+VertSplit    none                none               t=reverse            s=omit
+Variant: gui 8
+Title        pp_deeppink3        omit               t=omit g=bold        s=omit
+Variant: gui
+Visual       pp_gray80           fg                 g=reverse            s=omit
+Variant: 8
+Visual       none                none               t=reverse            s=omit
+Variant: gui 8
+VisualNOS    none                omit               bold,underline       s=omit
+WarningMsg   pp_red              omit               t=omit g=bold        s=omit
+WildMenu     pp_black            pp_yellow          omit                 s=omit
+Folded       pp_black4           pp_peach           omit                 s=omit
+FoldColumn   pp_darkblue         pp_gray80          omit                 s=omit
+DiffAdd      none                pp_white4          omit                 s=omit
+DiffChange   none                pp_pink            omit                 s=omit
+DiffDelete   pp_lightblue        pp_lightpink       bold                 s=omit
+DiffText     none                pp_salmon          bold                 s=omit
+Cursor       bg                  fg                 omit                 s=omit
+lCursor      bg                  fg                 omit                 s=omit
+verbatim
+" Colors for syntax highlighting
+endverbatim
+Comment      pp_teal             omit               omit                 s=omit
+Constant     pp_magenta          omit               omit                 s=omit
+Special      pp_slateblue        omit               omit                 s=omit
+Identifier   pp_darkcyan         omit               omit                 s=omit
+Statement    pp_brown            omit               omit                 s=omit
+PreProc      pp_magenta3         omit               omit                 s=omit
+Type         pp_seagreen         omit               t=omit g=bold        s=omit
+Variant: gui
+Ignore       bg                  omit               omit                 s=omit
+Variant: 8
+Ignore       pp_white            omit               t=bold               s=omit
+Variant: gui 8
+Error        pp_white            pp_red                bold                 s=omit
+Todo         pp_blue0            pp_yellow             omit                 s=omit
+
+Variant: 2
+Normal       omit                omit
+SpecialKey   omit                omit               bold
+NonText      omit                omit               bold
+Directory    omit                omit               bold
+ErrorMsg     omit                omit               standout
+IncSearch    omit                omit               reverse
+Search       omit                omit               reverse
+MoreMsg      omit                omit               bold
+ModeMsg      omit                omit               bold
+LineNr       omit                omit               underline
+Question     omit                omit               standout
+StatusLine   omit                omit               bold,reverse
+StatusLineNC omit                omit               reverse
+VertSplit    omit                omit               reverse
+Title        omit                omit               bold
+Visual       omit                omit               reverse
+VisualNOS    omit                omit               bold,underline
+WarningMsg   omit                omit               standout
+WildMenu     omit                omit               standout
+Folded       omit                omit               standout
+FoldColumn   omit                omit               standout
+DiffAdd      omit                omit               bold
+DiffChange   omit                omit               bold
+DiffDelete   omit                omit               bold
+DiffText     omit                omit               reverse
+Comment      omit                omit               bold
+Constant     omit                omit               underline
+Special      omit                omit               bold
+Identifier   omit                omit               underline
+Statement    omit                omit               bold
+PreProc      omit                omit               underline
+Type         omit                omit               underline
+Ignore       omit                omit               bold
+Error        omit                omit               reverse
+Todo         omit                omit               standout
+
