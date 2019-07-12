@@ -1,6 +1,6 @@
 # vim: ft=colortemplate
 
-# These are meant to be used only with terminall variants
+# These are meant to be used only with terminal variants
 # (the GUI color is considered an unused color).
 Color: ZERO      White ~ 0
 Color: ONE       White ~ 1
