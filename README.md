@@ -24,5 +24,8 @@ These are the main changes:
 - All color schemes define `g:terminal_ansi_colors` (currently using a standard
 	palette).
 
+- Minor inconsistencies, such as trailing spaces and mixed tab have been ironed
+	out.
+
 Other than that, the color schemes should be functionally equivalent to their
 original counterpart (modulo any oversight on my part). Please review!
