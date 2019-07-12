@@ -1,0 +1,97 @@
+# vim: ft=colortemplate cc=14,34,53,74
+Colortemplate Options: timestamp=1 creator=0 source_comment=0 ignore_missing=1
+Full name: Ron
+Short name: ron
+Author: Ron Aaron <ron@ronware.org>
+
+Variant: gui 8 2
+Background: dark
+
+Include: _default_colors
+
+Color: coral      coral     ~
+Color: cursorbg   #60a060   ~
+Color: cursorfg   #00ff00   ~
+Color: gold2      gold2     ~
+Color: gray30     gray30    ~
+Color: hex_gray30 #303030   ~
+Color: olivedrab  OliveDrab ~
+Color: pink2      pink2     ~
+Color: slateblue  SlateBlue ~
+Color: steelblue  SteelBlue ~
+
+Term Colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan lightgray
+Term Colors: darkgray red green yellow blue magenta cyan white
+
+Variant: gui
+Normal       cyan                black              omit                 s=omit
+NonText      yellow              hex_gray30         omit                 s=omit
+Comment      green               omit               omit                 s=omit
+Constant     cyan                omit               bold                 s=omit
+Identifier   cyan                omit                                    s=omit
+Statement    lightblue           omit                                    s=omit
+PreProc      pink2               omit               omit                 s=omit
+Type         seagreen            omit               bold                 s=omit
+Special      yellow              omit               omit                 s=omit
+ErrorMsg     black               red                omit                 s=omit
+WarningMsg   black               green              omit                 s=omit
+Error        white               red                omit                 s=omit
+Todo         black               orange             omit                 s=omit
+Cursor       cursorfg            cursorbg           omit                 s=omit
+Search       black               darkgray           bold                 s=omit
+IncSearch    none                steelblue                               s=omit
+LineNr       darkgray            omit               omit                 s=omit
+Title        darkgray            omit               omit                 s=omit
+StatusLineNC lightblue           darkblue                                s=omit
+StatusLine   cyan                blue               bold                 s=omit
+Label        gold2               omit               omit                 s=omit
+Operator     orange              omit               omit                 s=omit
+Visual       none                none               reverse              s=omit
+DiffChange   none                darkgreen          omit                 s=omit
+DiffText     none                olivedrab          omit                 s=omit
+DiffAdd      none                slateblue          omit                 s=omit
+DiffDelete   none                coral              omit                 s=omit
+Folded       none                gray30             omit                 s=omit
+FoldColumn   white               gray30             omit                 s=omit
+# Filetype-specific or plugin-specific highlight groups
+#ShowMarksHL  yellow              black              bold                 s=omit
+#cIf0         none                gray               omit                 s=omit
+#diffOnly     red                 omit               bold                 s=omit
+
+Variant: 8
+Normal       none                none
+NonText      blue                none               omit
+Comment      cyancomment         omit               omit
+Constant     magentaconstant     omit               omit
+Identifier   cyanidentifier      omit               bold
+Statement    yellowstatement     omit               omit
+PreProc      lightbluepreproc    omit               omit
+Type         lightseagreentype   omit               omit
+Special      orange              omit               omit
+ErrorMsg     white               reddarkred         omit
+WarningMsg   redlightred         none               omit
+Error        white231            red                omit
+Todo         black               yellow             omit
+Cursor       none                none               omit
+Search       black               yellow             omit
+IncSearch    none                none               reverse
+LineNr       yellow              omit               omit
+Title        magentalightmagenta omit               omit
+StatusLineNC none                none               reverse
+StatusLine   none                none               reverse,bold
+Label        none                none               omit
+Operator     none                none               omit
+Visual       none                none               reverse
+DiffChange   none                darkmagenta        omit
+DiffText     none                red                omit
+DiffAdd      none                darkblue           omit
+DiffDelete   blue                darkcyan           omit
+Folded       cyan                none               omit
+FoldColumn   cyan                graydarkgray       omit
+# Filetype-specific or plugin-specific highlight groups
+#ShowMarksHL  cyan                lightblue          bold                 s=omit
+
+Variant: 2
+Normal       omit                omit
+Visual       omit                omit               reverse
+
