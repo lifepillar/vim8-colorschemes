@@ -1,4 +1,4 @@
-# vim: ft=colortemplate fdm=marker
+# vim: ft=colortemplate cc=14,34,53,74
 Colortemplate Options: timestamp=1 creator=0 source_comment=0 ignore_missing=1
 Full name: Pablo
 Short name: pablo
@@ -9,18 +9,18 @@ Background: dark
 
 Include: _default_colors
 
-Color: pablo_black                #000000              ~          0
-Color: pablo_green                #00c000              ~          2
-Color: pablo_yellow               #c0c000              ~          3
-Color: pablo_blue                 #000080              ~          4
-Color: pablo_cyan                 #00c0c0              ~          6
-Color: pablo_brightblack          #808080              ~          8
-Color: pablo_brightred            #ff0000              ~          9
-Color: pablo_brightgreen          #00ff00              ~          10
-Color: pablo_brightyellow         #ffff00              ~          11
-Color: pablo_brightblue           #0000ff              ~          12
-Color: pablo_brightcyan           #00ffff              ~          14
-Color: pablo_brightwhite          #ffffff              ~          15
+Color: pablo_black        #000000 ~ 0
+Color: pablo_green        #00c000 ~ 2
+Color: pablo_yellow       #c0c000 ~ 3
+Color: pablo_blue         #000080 ~ 4
+Color: pablo_cyan         #00c0c0 ~ 6
+Color: pablo_brightblack  #808080 ~ 8
+Color: pablo_brightred    #ff0000 ~ 9
+Color: pablo_brightgreen  #00ff00 ~ 10
+Color: pablo_brightyellow #ffff00 ~ 11
+Color: pablo_brightblue   #0000ff ~ 12
+Color: pablo_brightcyan   #00ffff ~ 14
+Color: pablo_brightwhite  #ffffff ~ 15
 
 Term Colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan lightgray
 Term Colors: darkgray red green yellow blue magenta cyan white
