@@ -11,6 +11,8 @@ These are the main changes:
 
 - all color schemes have a uniform, consistent, structure.
 
+- all color schemes are `termguicolors`-aware.
+
 - RGB color names follow the capitalization in `$VIMRUNTIME/rgb.txt`.
 
 - Issues such as those described at
