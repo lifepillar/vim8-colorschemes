@@ -19,5 +19,8 @@ These are the main changes:
 	https://groups.google.com/forum/#!msg/vim_dev/afPqwAFNdrU/nqh6tOM87QUJ and
 	https://github.com/vim/vim/issues/1740 are taken care of.
 
+- All color schemes define `g:terminal_ansi_colors` (currently using a standard
+	palette).
+
 Other than that, the color schemes should be functionally equivalent to their
 original counterpart (modulo any oversight on my part). Please review!
