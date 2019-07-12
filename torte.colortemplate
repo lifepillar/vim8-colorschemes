@@ -1,0 +1,41 @@
+# vim: ft=colortemplate cc=14,34,53,74
+Colortemplate Options: timestamp=1 creator=0 source_comment=0 ignore_missing=1
+Full name: Torte
+Short name: torte
+Author: Thorsten Maerz <info@netztorte.de>
+
+verbatim
+" grey on black
+" optimized for TFT panels
+
+" hardcoded colors :
+" GUI Comment : #80a0ff = Light blue
+endverbatim
+
+Variant: gui 8
+Background: dark
+
+Include: _default_colors
+
+Color: cyanblue    #80a0ff ~ Blue
+Color: gray80      gray80  ~ LightGray
+Color: hex_gray40  #404040 ~
+Color: orangebrown Orange  ~ Brown
+
+Term Colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan lightgray
+Term Colors: darkgray red green yellow blue magenta cyan white
+
+Normal       gray80              black              omit                 s=omit
+Search       black               red                g=bold               s=omit
+Variant: gui
+Visual       hex_gray40          omit               g=bold               s=omit
+Variant: 8
+Visual       none                none               reverse
+Variant: gui 8
+Cursor       black               green              bold                 s=omit
+Special      orangebrown         omit               omit                 s=omit
+Comment      cyanblue            omit               omit                 s=omit
+StatusLine   blue                white              omit                 s=omit
+Statement    yellow              omit                                    s=omit
+Type         lightseagreentype   omit                                    s=omit
+
